@@ -1,0 +1,16 @@
+
+.cellLine{
+    display: flex;
+    
+}
+
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    /* float: left; */
+    background-color: #fff;
+  }
