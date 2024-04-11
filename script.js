@@ -5,7 +5,7 @@ const menu = document.querySelector(".menu-container")
 
 let flag = 1;
 play.addEventListener('click', _ => {
-    window.location.href = "/main.html";
+    window.location.href = "./main.html";
 })
 
 

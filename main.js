@@ -219,5 +219,5 @@ function styleCountNum(num) {
 
 // Завершение игры
 function gameOver() {
-    window.location.href = "/gameover.html"
+    window.location.href = "./gameover.html"
 }
