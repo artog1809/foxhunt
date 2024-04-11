@@ -126,3 +126,33 @@ body {
     justify-content: center;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .cell {
+        width: 30px;
+        height: 30px;
+    }
+    .fox {
+        width: 20px;
+        height: 20px;
+    }
+    .forest {
+        width: 20px;
+        height: 20px;
+    }
+    .container {
+        width: 350px;
+        height: 350px;
+    }
+    .num {
+        font-size: 25px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .ruleText {
+        font-size: 12px;
+    }
+}
