@@ -14,22 +14,31 @@
 
 <body>
     <div class="container">
-        <div class="bestscore">
-            <label class = "scoreLabel">Лучший результат:</label>
-            <span class = "score"></span>
-        </div>
-        <div class="field"></div>
-        <div class="statistic">
-            <div class="foxes">
-                <label class = "foxesLabel">Лис осталось:</label>
-                <span class = "foxesLast"></span>
+        <div class="menu-container">
+            <h1>Охота на лис</h1>
+            <div class="result">
             </div>
-            <div class="attempts">
-                <label class = "attemptsLabel">Попыток сделано:</label>
-                <span class = "attemptsLast"></span>
+            <div class="btns">
+                <button class="button play">Играть</button>
+                <button class="button rules">Правила</button>
+                <div class="rule">
+                    <div class="rule-block">
+                        <div class="ruleLab">Цель игры</div>
+                        <div class="ruleText">Найти с помощью радиопеленгатора пять "лис", спрятавшихся в лесных кварталах</div>
+                    </div>
+                    <div class="rule-block">
+                        <div class="ruleLab">Игровой процесс</div>
+                        <div class="ruleText">
+                            При нажатии на квартал со спрятавшейся "лисой" она появляется на экране
+                            Если в квартале нет спрятавшейся "лисы", то производится радиопеленгация и показывается число лис,
+                            спрятавшихся в кварталах, находящихся на вертикали, горизонтали и диагоналях этого квартала.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-<script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
