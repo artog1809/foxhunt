@@ -11,8 +11,10 @@ let clicks = 0;
 getFoxesCoords();
 foxesLast.textContent = 5;
 attempts.textContent = 0;
-score.textContent = `${window.localStorage.getItem('best')}`;
-
+if(!window.localStorage.getItem('best')){
+    window.localStorage.setItem('best', '40')
+}
+score.textContent = window.localStorage.getItem('best');
 
 // Открытие клетки
 let openCell = function(x,y) {
